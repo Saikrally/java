@@ -9,5 +9,9 @@ public class ClassesAndObjects {
         car1.width = 2000;
         car1.addWeight(50);
         car1.drive(120);
+        car1.addWeight(700);
+        car1.drive(100);
+        Car car2 = new Car();
+        Car car3 = new Car();
     }
 }
