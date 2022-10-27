@@ -17,5 +17,10 @@ public class InheritanceOOP {
 
         System.out.println("Cat name is: " + cat.name);
         System.out.println("Dog name s: " + dog.name);
+        dog.var = 10;
+        System.out.println(dog.getWeight());
+        dog.sound();
+        cat.sound();
+
     }
 }
